@@ -5,8 +5,8 @@
  * Then, using your Literals, console.log "my favorite song is..." with the song's value
  */
 
-//let myFavoriteSong = "Toxic"
-//console.log(`my favorite song is ${myFavoriteSong}`)
+let myFavoriteSong = "Toxic"
+console.log(`my favorite song is ${myFavoriteSong}`)
 
 /*
  * Prompt 2:
@@ -17,7 +17,7 @@ let myName = "Jeremy"
 const myAge = 37
 let desserts = "dark chocolate cake"
 
-//console.log(`Hello my name ${myName}. I am ${myAge} years old, and my favorite food is ${desserts} `)
+console.log(`Hello my name ${myName}. I am ${myAge} years old, and my favorite food is ${desserts} `)
 
 /*
  * Prompt 3:
@@ -30,13 +30,13 @@ let desserts = "dark chocolate cake"
  *   - calculate the remainder of dividing your variable by 2
  */
 
-// let number = 777
-// console.log(number)
-// console.log(number +1)
-// console.log(number -1)
-// console.log(number*3)
-// console.log(number/7)
-// console.log(number%2)
+let number = 777
+console.log(number)
+console.log(number +1)
+console.log(number -1)
+console.log(number*3)
+console.log(number/7)
+console.log(number%2)
 /*
  * Prompt 4:
  *
@@ -61,13 +61,13 @@ console.log(`hello my name is ${fullName}`)
 // Use your array methods to add a movie in to the Front of the array, then the Back of the Array, then to the 2nd index point of the array
 
  let movies = ["dune", "dune 2", "barbie"]
-// console.log(movies[1])
-//  movies.unshift("beetlejuice")
-// console.log(movies)
-// movies.push("fido")
-// console.log(movies)
-// movies.splice(2, 0, "jurassic park")
-// console.log(movies)
+console.log(movies[1])
+movies.unshift("beetlejuice")
+console.log(movies)
+movies.push("fido")
+console.log(movies)
+movies.splice(2, 0, "jurassic park")
+console.log(movies)
 
 
 /*
@@ -75,54 +75,54 @@ console.log(`hello my name is ${fullName}`)
  * Retrieve "Marty McFly" from each of the arrays below.
  */
 
-// let array1 = ['Marty Marion', 'Marty Feldman', 'Marty McFly', 'Marty Marion'];
-// console.log(array1[2])
-// let array2 = [
-  // ['Marty Feldman', 'Marty Marion'],
-  // ['Marty Stuart', 'Marty McFly'],
-  // ['Marty Jannetty', 'Marty Robbins']
-// ];
-// console.log(array2[1][1])
-// let array3 = [
-  // ['Marty Feldman', ['Marty Marion']],
-  // ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
-// ];
-// console.log(array3[1][1][1])
+let array1 = ['Marty Marion', 'Marty Feldman', 'Marty McFly', 'Marty Marion'];
+console.log(array1[2])
+ let array2 = [
+  ['Marty Feldman', 'Marty Marion'],
+  ['Marty Stuart', 'Marty McFly'],
+  ['Marty Jannetty', 'Marty Robbins']
+ ];
+ console.log(array2[1][1])
+ let array3 = [
+   ['Marty Feldman', ['Marty Marion']],
+   ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
+ ];
+ console.log(array3[1][1][1])
 /*
  *
  * Use the length of the array below to retrieve the second to last item.
  */
 
-// let array4 = ['a', 'b', 'c', 'd', 'e'];
-// console.log(array4[array4.length-2])
+ let array4 = ['a', 'b', 'c', 'd', 'e'];
+ console.log(array4[array4.length-2])
 /*
  *
  * Use the following arrays to answer the subprompts below.
  */
 
-// let thom = ['Thom', 1000, 'Christchurch'];
-// let karolin = ['Karolin', 16, 'New York'];
-// let kristyn = ['Kristyn', 5, 'Pittsburgh'];
-// let cathleen = ['Cathleen', 186, 'New York'];
+ let thom = ['Thom', 1000, 'Christchurch'];
+ let karolin = ['Karolin', 16, 'New York'];
+ let kristyn = ['Kristyn', 5, 'Pittsburgh'];
+ let cathleen = ['Cathleen', 186, 'New York'];
 
 // Cathleen decides that Thom can't be named "Thom" anymore. Remove "Thom" from
-// the thom array and replace it with "Tom".
+ the thom array and replace it with "Tom".
 
-// thom.splice(0, 1, "Tom")
-// console.log(thom)
+ thom.splice(0, 1, "Tom")
+ console.log(thom)
 
-// Karolin just had her birthday; change Karolin's array to reflect her being
-// a year older.
+ //Karolin just had her birthday; change Karolin's array to reflect her being
+ a year older.
 
-// karolin.splice(1, 1, 17)
-// console.log(karolin)
+ karolin.splice(1, 1, 17)
+ console.log(karolin)
 
-// Change Cathleen's hometown from New York to "Gotham City".
+ //Change Cathleen's hometown from New York to "Gotham City".
 
-// cathleen.splice(2, 1, "Gotham City")
-// console.log(cathleen)
+ cathleen.splice(2, 1, "Gotham City")
+ console.log(cathleen)
 
 // Remove "Pittsburgh" from Kristyn's array and add "Oakland".
 
-// kristyn.splice (2, 1, "Oakland")
-// console.log(kristyn)
+ kristyn.splice (2, 1, "Oakland")
+ console.log(kristyn)
